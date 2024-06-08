@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
 class Comment(BaseModel):
-    id: str
+    id: int
+    name : str
     comment: str
